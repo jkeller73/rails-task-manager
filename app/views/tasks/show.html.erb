@@ -1,0 +1,5 @@
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+<p><%= @task.completed ? '☑️ This task is completed' : "◻ This task isn't completed yet" %></p>
+<p><%= link_to "back to list", tasks_path %></p>
+<p><%= link_to "edit task", edit_path %></p>
